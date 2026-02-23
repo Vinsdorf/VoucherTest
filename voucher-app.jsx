@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+const [x, setX] = React.useState(0);
 
 // ─── UTILITIES ────────────────────────────────────────────────────────────────
 const generateContractNumber = () => {
